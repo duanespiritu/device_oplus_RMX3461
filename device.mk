@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.lahaina \
-    bootctrl.lahaina.recovery
+    bootctrl.lahaina.recovery \
     fastbootd
 
 PRODUCT_PACKAGES += \
