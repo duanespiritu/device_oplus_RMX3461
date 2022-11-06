@@ -1,4 +1,4 @@
-# Android device tree for Realme 6SE (RMX3461)
+# Android device tree for Realme 9SE/Q3S (RMX3461)
 
 ```
 #
