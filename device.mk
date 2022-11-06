@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.lahaina \
     bootctrl.lahaina.recovery
+    fastbootd
 
 PRODUCT_PACKAGES += \
     bootctrl.lahaina \
@@ -40,3 +41,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     qcom_decrypt \
     qcom_decrypt_fbe
+    
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+    
+# Copy modules for depmod
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*.ko,device/realme/RMX3461/prebuilt/modules/5.4-gki/,$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/)

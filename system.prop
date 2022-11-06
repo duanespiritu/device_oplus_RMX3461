@@ -1,0 +1,7 @@
+#Battery Property
+ro.charger.enable_suspend=1
+
+# ADB/MTP
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=adb,mtp
