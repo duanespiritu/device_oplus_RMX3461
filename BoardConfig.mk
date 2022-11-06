@@ -1,4 +1,4 @@
-#
+T56#
 # Copyright (C) 2022 The Android Open Source Project
 # Copyright (C) 2022 SebaUbuntu's TWRP device tree generator
 #
@@ -83,7 +83,7 @@ BOARD_QUALCOMM_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 TARGET_BOARD_PLATFORM := lahaina
 
 # Recovery
-# TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
